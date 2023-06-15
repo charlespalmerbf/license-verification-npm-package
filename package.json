@@ -1,0 +1,22 @@
+{
+  "name": "license-verification",
+  "version": "1.0.0",
+  "description": "The provided code defines a function called validateUKDrivingLicense, which takes a licenseNumber as input. The purpose of this function is to validate whether the given licenseNumber is a valid UK driving license number.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/charlespalmerbf/license-verification-npm-package.git"
+  },
+  "keywords": [
+    "JavaScript"
+  ],
+  "author": "charlespalmerbf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/charlespalmerbf/license-verification-npm-package/issues"
+  },
+  "homepage": "https://github.com/charlespalmerbf/license-verification-npm-package#readme"
+}
