@@ -33,7 +33,7 @@ The provided code defines a function called `validateUKDrivingLicense`, which ta
 
 The function uses a regular expression (`regex`) to perform the validation. The regular expression pattern is as follows:
 
-regexCopy code
+regex
 
 `/^[A-Z9]{5}\d{6}[A-Z9]{2}\d[A-Z]{2}$/`
 
