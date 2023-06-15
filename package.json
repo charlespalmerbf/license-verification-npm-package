@@ -1,5 +1,5 @@
 {
-  "name": "license-verification",
+  "name": "@charlespalmerbf/license-verification",
   "version": "1.0.0",
   "description": "The provided code defines a function called validateUKDrivingLicense, which takes a licenseNumber as input. The purpose of this function is to validate whether the given licenseNumber is a valid UK driving license number.",
   "main": "index.js",
