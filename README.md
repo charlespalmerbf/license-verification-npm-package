@@ -1,6 +1,6 @@
 # @charlespalmerbf/license-verification
 
-The code provided is a custom JavaScript function called convertHtmlToMarkdown that converts HTML content into GitHub Flavored Markdown (GFM) format. Here's a breakdown of what each part of the code does:
+The provided code defines a function called validateUKDrivingLicense, which takes a licenseNumber as input. The purpose of this function is to validate whether the given licenseNumber is a valid UK driving license number.
 
 # Installation
 
@@ -11,12 +11,10 @@ The code provided is a custom JavaScript function called convertHtmlToMarkdown t
 `node`
 
 ```js
-const convertHtmlToMarkdown = require("@charlespalmerbf/html-to-gfm");
+const validateUKDrivingLicense = require("@charlespalmerbf/license-verification");
 
-const html = '<h1>Hello, world!</h1><p>This is <strong>HTML</strong> content.</p><ul><li>Item 1</li><li>Item 2</li></ul>';
-
-const markdown = convertHtmlToMarkdown(html);
-console.log(markdown); //# Hello, world!This is **HTML** content.- Item 1- Item 2
+console.log(validateUKDrivingLicense("TESTR003060GN9NB")); //true
+console.log(validateUKDrivingLicense("ABC123456789DEF01")); //false
 ```
 
 # Build
